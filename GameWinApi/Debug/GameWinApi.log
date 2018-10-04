@@ -1,0 +1,60 @@
+﻿  stdafx.cpp
+  waterblock.cpp
+  Tank.cpp
+  pTank.cpp
+  mind.cpp
+  mask.cpp
+  iceblock.cpp
+  GameWinApi.cpp
+c:\users\xayk.ksi\downloads\gamewinapi\gamewinapi.cpp(28): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  enemyTank.cpp
+  bullet.cpp
+  bulblock.cpp
+  brick.cpp
+  bonus.cpp
+  block.cpp
+  beton.cpp
+  battleground.cpp
+c:\users\xayk.ksi\downloads\gamewinapi\battleground.cpp(62): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note:  см. объявление "fopen"
+c:\users\xayk.ksi\downloads\gamewinapi\battleground.cpp(63): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note:  см. объявление "fopen"
+c:\users\xayk.ksi\downloads\gamewinapi\battleground.cpp(64): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note:  см. объявление "fopen"
+c:\users\xayk.ksi\downloads\gamewinapi\battleground.cpp(65): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note:  см. объявление "fopen"
+c:\users\xayk.ksi\downloads\gamewinapi\battleground.cpp(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note:  см. объявление "fopen"
+c:\users\xayk.ksi\downloads\gamewinapi\battleground.cpp(69): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note:  см. объявление "fopen"
+c:\users\xayk.ksi\downloads\gamewinapi\battleground.cpp(70): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note:  см. объявление "fopen"
+c:\users\xayk.ksi\downloads\gamewinapi\battleground.cpp(72): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note:  см. объявление "fscanf"
+c:\users\xayk.ksi\downloads\gamewinapi\battleground.cpp(74): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note:  см. объявление "fscanf"
+c:\users\xayk.ksi\downloads\gamewinapi\battleground.cpp(76): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note:  см. объявление "fscanf"
+c:\users\xayk.ksi\downloads\gamewinapi\battleground.cpp(80): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note:  см. объявление "fscanf"
+c:\users\xayk.ksi\downloads\gamewinapi\battleground.cpp(126): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note:  см. объявление "fscanf"
+c:\users\xayk.ksi\downloads\gamewinapi\battleground.cpp(127): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note:  см. объявление "fscanf"
+c:\users\xayk.ksi\downloads\gamewinapi\battleground.cpp(210): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstdlib.h(67): note:  см. объявление "_itow"
+c:\users\xayk.ksi\downloads\gamewinapi\battleground.cpp(213): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstdlib.h(67): note:  см. объявление "_itow"
+c:\users\xayk.ksi\downloads\gamewinapi\battleground.cpp(217): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstdlib.h(67): note:  см. объявление "_itow"
+c:\users\xayk.ksi\downloads\gamewinapi\battleground.cpp(220): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstdlib.h(67): note:  см. объявление "_itow"
+c:\users\xayk.ksi\downloads\gamewinapi\battleground.cpp(224): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstdlib.h(67): note:  см. объявление "_itow"
+  base.cpp
+  Создание кода...
+c:\users\xayk.ksi\downloads\gamewinapi\mind.cpp(104): warning C4715: mind::automat: значение возвращается не при всех путях выполнения
+c:\users\xayk.ksi\downloads\gamewinapi\mind.cpp(215): warning C4715: mind::followbase: значение возвращается не при всех путях выполнения
+c:\users\xayk.ksi\downloads\gamewinapi\mind.cpp(285): warning C4715: mind::followplayer: значение возвращается не при всех путях выполнения
+  GameWinApi.vcxproj -> C:\Users\xayk.KSI\Downloads\Debug\GameWinApi.exe
+  GameWinApi.vcxproj -> C:\Users\xayk.KSI\Downloads\Debug\GameWinApi.pdb (Full PDB)

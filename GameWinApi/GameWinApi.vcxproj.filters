@@ -1,0 +1,622 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="map1.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="map2.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="map3.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWinApi.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="pTank.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Tank.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="waterblock.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="base.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="battleground.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="beton.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="block.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="bonus.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="brick.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="bulblock.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyTank.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="header.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="iceblock.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="mask.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="mind.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWinApi.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Tank.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="waterblock.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="base.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="battleground.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="beton.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="block.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="bonus.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="brick.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="bulblock.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyTank.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="iceblock.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="mask.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="mind.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="pTank.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameWinApi.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="yellowright.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="yellowdown.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="yellowup.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="yellowleft.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="beton.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="bush.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="brick.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="bitmap1.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="bullet.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="enemyup.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="enemydown.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="enemyleft.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="enemyright.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="eagle.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="bitmap2.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="yellow4left.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="yellow4down.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="yellow4right.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="yellow3left.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="yellow3down.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="yellow3right.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="yellow2left.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="yellow2down.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="yellow2right.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="yellow4up.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="yellow3up.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="yellow2up.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="enemy4left.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="enemy4down.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="enemy4right.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="enemy3left.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="enemy3down.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="enemy3right.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="enemy2left.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="enemy2down.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="enemy2right.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="enemy4up.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="enemy3up.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="enemy2up.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="b_grenade.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="b_star.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="b_lopata.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="b_time.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="b_god.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="b_life.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icon.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="die1.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="ice.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="water1.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="water2.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="die3.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="die2.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="revive1.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="revive2.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="revive3.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="revive4.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="gameover.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="basedie.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="godtime1.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="godtime2.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="bonus\enemy2down_b.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="bonus\enemy2left_b.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="bonus\enemy2right_b.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="bonus\enemy2up_b.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="bonus\enemy3down_b.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="bonus\enemy3left_b.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="bonus\enemy3right_b.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="bonus\enemy3up_b.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="bonus\enemy4down_b.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="bonus\enemy4left_b.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="bonus\enemy4right_b.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="bonus\enemy4up_b.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="bonus\enemydown_b.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="bonus\enemyleft_b.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="bonus\enemyright_b.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="bonus\enemyup_b.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\enemy2down.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\enemy2left.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\enemy2right.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\enemy2up.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\enemy3down.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\enemy3left.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\enemy3right.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\enemy3up.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\enemy4down.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\enemy4left.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\enemy4right.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\enemy4up.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\enemydown.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\enemyleft.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\enemyright.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\enemyup.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\yellow2down.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\yellow2left.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\yellow2right.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\yellow2up.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\yellow3down.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\yellow3left.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\yellow3right.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\yellow3up.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\yellow4down.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\yellow4left.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\yellow4right.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\yellow4up.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\yellowdown.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\yellowleft.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\yellowright.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\yellowup.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\bonus\enemy2down_b.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\bonus\enemy2left_b.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\bonus\enemy2right_b.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\bonus\enemy2up_b.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\bonus\enemy3down_b.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\bonus\enemy3left_b.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\bonus\enemy3right_b.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\bonus\enemy3up_b.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\bonus\enemy4down_b.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\bonus\enemy4left_b.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\bonus\enemy4right_b.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\bonus\enemy4up_b.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\bonus\enemydown_b.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\bonus\enemyleft_b.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\bonus\enemyright_b.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\bonus\enemyup_b.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="green2down.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="green2left.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="green2right.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="green2up.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="green3down.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="green3left.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="green3right.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="green3up.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="green4down.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="green4left.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="green4right.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="green4up.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="greendown.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="greenleft.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="greenright.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="greenup.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\green2down.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\green2left.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\green2right.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\green2up.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\green3down.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\green3left.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\green3right.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\green3up.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\green4down.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\green4left.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\green4right.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\green4up.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\greendown.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\greenleft.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\greenright.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="secondtank\greenup.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

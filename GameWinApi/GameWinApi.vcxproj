@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1C0467A7-D241-4E61-A683-C5BA75F48882}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>GameWinApi</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="map1.txt" />
+    <Text Include="map2.txt" />
+    <Text Include="map3.txt" />
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base.h" />
+    <ClInclude Include="battleground.h" />
+    <ClInclude Include="beton.h" />
+    <ClInclude Include="block.h" />
+    <ClInclude Include="bonus.h" />
+    <ClInclude Include="brick.h" />
+    <ClInclude Include="bulblock.h" />
+    <ClInclude Include="bullet.h" />
+    <ClInclude Include="enemyTank.h" />
+    <ClInclude Include="GameWinApi.h" />
+    <ClInclude Include="header.h" />
+    <ClInclude Include="iceblock.h" />
+    <ClInclude Include="mask.h" />
+    <ClInclude Include="mind.h" />
+    <ClInclude Include="pTank.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Tank.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="waterblock.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="base.cpp" />
+    <ClCompile Include="battleground.cpp" />
+    <ClCompile Include="beton.cpp" />
+    <ClCompile Include="block.cpp" />
+    <ClCompile Include="bonus.cpp" />
+    <ClCompile Include="brick.cpp" />
+    <ClCompile Include="bulblock.cpp" />
+    <ClCompile Include="bullet.cpp" />
+    <ClCompile Include="enemyTank.cpp" />
+    <ClCompile Include="GameWinApi.cpp" />
+    <ClCompile Include="iceblock.cpp" />
+    <ClCompile Include="mask.cpp" />
+    <ClCompile Include="mind.cpp" />
+    <ClCompile Include="pTank.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Tank.cpp" />
+    <ClCompile Include="waterblock.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameWinApi.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="basedie.bmp" />
+    <Image Include="beton.bmp" />
+    <Image Include="bitmap1.bmp" />
+    <Image Include="bitmap2.bmp" />
+    <Image Include="bonus\enemy2down_b.bmp" />
+    <Image Include="bonus\enemy2left_b.bmp" />
+    <Image Include="bonus\enemy2right_b.bmp" />
+    <Image Include="bonus\enemy2up_b.bmp" />
+    <Image Include="bonus\enemy3down_b.bmp" />
+    <Image Include="bonus\enemy3left_b.bmp" />
+    <Image Include="bonus\enemy3right_b.bmp" />
+    <Image Include="bonus\enemy3up_b.bmp" />
+    <Image Include="bonus\enemy4down_b.bmp" />
+    <Image Include="bonus\enemy4left_b.bmp" />
+    <Image Include="bonus\enemy4right_b.bmp" />
+    <Image Include="bonus\enemy4up_b.bmp" />
+    <Image Include="bonus\enemydown_b.bmp" />
+    <Image Include="bonus\enemyleft_b.bmp" />
+    <Image Include="bonus\enemyright_b.bmp" />
+    <Image Include="bonus\enemyup_b.bmp" />
+    <Image Include="brick.bmp" />
+    <Image Include="bullet.bmp" />
+    <Image Include="bush.bmp" />
+    <Image Include="b_god.bmp" />
+    <Image Include="b_grenade.bmp" />
+    <Image Include="b_life.bmp" />
+    <Image Include="b_lopata.bmp" />
+    <Image Include="b_star.bmp" />
+    <Image Include="b_time.bmp" />
+    <Image Include="die1.bmp" />
+    <Image Include="die2.bmp" />
+    <Image Include="die3.bmp" />
+    <Image Include="eagle.bmp" />
+    <Image Include="enemy2down.bmp" />
+    <Image Include="enemy2left.bmp" />
+    <Image Include="enemy2right.bmp" />
+    <Image Include="enemy2up.bmp" />
+    <Image Include="enemy3down.bmp" />
+    <Image Include="enemy3left.bmp" />
+    <Image Include="enemy3right.bmp" />
+    <Image Include="enemy3up.bmp" />
+    <Image Include="enemy4down.bmp" />
+    <Image Include="enemy4left.bmp" />
+    <Image Include="enemy4right.bmp" />
+    <Image Include="enemy4up.bmp" />
+    <Image Include="enemydown.bmp" />
+    <Image Include="enemyleft.bmp" />
+    <Image Include="enemyright.bmp" />
+    <Image Include="enemyup.bmp" />
+    <Image Include="gameover.bmp" />
+    <Image Include="godtime1.bmp" />
+    <Image Include="godtime2.bmp" />
+    <Image Include="green2down.bmp" />
+    <Image Include="green2left.bmp" />
+    <Image Include="green2right.bmp" />
+    <Image Include="green2up.bmp" />
+    <Image Include="green3down.bmp" />
+    <Image Include="green3left.bmp" />
+    <Image Include="green3right.bmp" />
+    <Image Include="green3up.bmp" />
+    <Image Include="green4down.bmp" />
+    <Image Include="green4left.bmp" />
+    <Image Include="green4right.bmp" />
+    <Image Include="green4up.bmp" />
+    <Image Include="greendown.bmp" />
+    <Image Include="greenleft.bmp" />
+    <Image Include="greenright.bmp" />
+    <Image Include="greenup.bmp" />
+    <Image Include="ice.bmp" />
+    <Image Include="Icon.ico" />
+    <Image Include="revive1.bmp" />
+    <Image Include="revive2.bmp" />
+    <Image Include="revive3.bmp" />
+    <Image Include="revive4.bmp" />
+    <Image Include="secondtank\bonus\enemy2down_b.bmp" />
+    <Image Include="secondtank\bonus\enemy2left_b.bmp" />
+    <Image Include="secondtank\bonus\enemy2right_b.bmp" />
+    <Image Include="secondtank\bonus\enemy2up_b.bmp" />
+    <Image Include="secondtank\bonus\enemy3down_b.bmp" />
+    <Image Include="secondtank\bonus\enemy3left_b.bmp" />
+    <Image Include="secondtank\bonus\enemy3right_b.bmp" />
+    <Image Include="secondtank\bonus\enemy3up_b.bmp" />
+    <Image Include="secondtank\bonus\enemy4down_b.bmp" />
+    <Image Include="secondtank\bonus\enemy4left_b.bmp" />
+    <Image Include="secondtank\bonus\enemy4right_b.bmp" />
+    <Image Include="secondtank\bonus\enemy4up_b.bmp" />
+    <Image Include="secondtank\bonus\enemydown_b.bmp" />
+    <Image Include="secondtank\bonus\enemyleft_b.bmp" />
+    <Image Include="secondtank\bonus\enemyright_b.bmp" />
+    <Image Include="secondtank\bonus\enemyup_b.bmp" />
+    <Image Include="secondtank\enemy2down.bmp" />
+    <Image Include="secondtank\enemy2left.bmp" />
+    <Image Include="secondtank\enemy2right.bmp" />
+    <Image Include="secondtank\enemy2up.bmp" />
+    <Image Include="secondtank\enemy3down.bmp" />
+    <Image Include="secondtank\enemy3left.bmp" />
+    <Image Include="secondtank\enemy3right.bmp" />
+    <Image Include="secondtank\enemy3up.bmp" />
+    <Image Include="secondtank\enemy4down.bmp" />
+    <Image Include="secondtank\enemy4left.bmp" />
+    <Image Include="secondtank\enemy4right.bmp" />
+    <Image Include="secondtank\enemy4up.bmp" />
+    <Image Include="secondtank\enemydown.bmp" />
+    <Image Include="secondtank\enemyleft.bmp" />
+    <Image Include="secondtank\enemyright.bmp" />
+    <Image Include="secondtank\enemyup.bmp" />
+    <Image Include="secondtank\green2down.bmp" />
+    <Image Include="secondtank\green2left.bmp" />
+    <Image Include="secondtank\green2right.bmp" />
+    <Image Include="secondtank\green2up.bmp" />
+    <Image Include="secondtank\green3down.bmp" />
+    <Image Include="secondtank\green3left.bmp" />
+    <Image Include="secondtank\green3right.bmp" />
+    <Image Include="secondtank\green3up.bmp" />
+    <Image Include="secondtank\green4down.bmp" />
+    <Image Include="secondtank\green4left.bmp" />
+    <Image Include="secondtank\green4right.bmp" />
+    <Image Include="secondtank\green4up.bmp" />
+    <Image Include="secondtank\greendown.bmp" />
+    <Image Include="secondtank\greenleft.bmp" />
+    <Image Include="secondtank\greenright.bmp" />
+    <Image Include="secondtank\greenup.bmp" />
+    <Image Include="secondtank\yellow2down.bmp" />
+    <Image Include="secondtank\yellow2left.bmp" />
+    <Image Include="secondtank\yellow2right.bmp" />
+    <Image Include="secondtank\yellow2up.bmp" />
+    <Image Include="secondtank\yellow3down.bmp" />
+    <Image Include="secondtank\yellow3left.bmp" />
+    <Image Include="secondtank\yellow3right.bmp" />
+    <Image Include="secondtank\yellow3up.bmp" />
+    <Image Include="secondtank\yellow4down.bmp" />
+    <Image Include="secondtank\yellow4left.bmp" />
+    <Image Include="secondtank\yellow4right.bmp" />
+    <Image Include="secondtank\yellow4up.bmp" />
+    <Image Include="secondtank\yellowdown.bmp" />
+    <Image Include="secondtank\yellowleft.bmp" />
+    <Image Include="secondtank\yellowright.bmp" />
+    <Image Include="secondtank\yellowup.bmp" />
+    <Image Include="small.ico" />
+    <Image Include="water1.bmp" />
+    <Image Include="water2.bmp" />
+    <Image Include="yellow2down.bmp" />
+    <Image Include="yellow2left.bmp" />
+    <Image Include="yellow2right.bmp" />
+    <Image Include="yellow2up.bmp" />
+    <Image Include="yellow3down.bmp" />
+    <Image Include="yellow3left.bmp" />
+    <Image Include="yellow3right.bmp" />
+    <Image Include="yellow3up.bmp" />
+    <Image Include="yellow4down.bmp" />
+    <Image Include="yellow4left.bmp" />
+    <Image Include="yellow4right.bmp" />
+    <Image Include="yellow4up.bmp" />
+    <Image Include="yellowdown.bmp" />
+    <Image Include="yellowleft.bmp" />
+    <Image Include="yellowright.bmp" />
+    <Image Include="yellowup.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
